@@ -1,0 +1,57 @@
+/*user variables*/
+:root {
+    /*Font Size*/
+    --font-size-xxl: 2rem;
+    --font-size-xl: 1.5rem;
+    --font-size-l: 1.25rem;
+    --font-size-m: 1rem;
+    --font-size-s: 0.9rem;
+    --font-size-xs: 0.8rem;
+    --font-size-xxs: 0.7rem;
+
+    /*Font Weight*/
+    --font-weight-light: 100;
+    --font-weight-normal: 300;
+    --font-weight-semi-bold: 500;
+    --font-weight-bold: 700;
+
+    /*Font Family*/
+    --font-family-base: 'Roboto', sans-serif; /*change*/
+
+    /*Colours*/
+    --color-primary: rgba(255, 191, 0, 1); /*change*/
+    --color-secondary: rgba(40, 54, 68, 1); /*change*/
+
+    /*Spacing*/
+    --spacing-xxxl: 2rem;
+    --spacing-xxl: 1.50rem;
+    --spacing-xl: 1rem;
+    --spacing-l: 0.75rem;
+    --spacing-m: 0.50rem;
+    --spacing-s: 0.25rem;
+    --spacing-xs: 0.10rem;
+
+    /*Picture Cutting*/
+    --polygon-header: polygon(0 1%, 100% 0, 98% 96%, 3% 100%); /*change*/
+    --polygon-footer: polygon(2% 0%, 98% 0, 100% 100%, 0% 98%); /*change*/
+
+
+}
+
+/*global*/
+body {
+    margin: 0;
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-m);
+    font-weight: var(--font-weight-normal);
+    background-color: var(--color-secondary);
+}
+
+.flex {
+    display: flex;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
